@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    
+</head>
+<body>
+
+    <form>
+        Enter 1st no.
+        <input type="text" id="one">
+        <br>
+         Enter 2nd no.
+        <input type="text" id="two">
+        <br>
+<!--        <button  onclick="sum()">Click</button>-->
+    </form>
+   <button id="btn" onclick="doSomething()">Click</button>    
+ 
+     <script  type="text/javascript">
+                function doSomething(){
+                      var a = document.getElementById("one").value;
+                      var b = document.getElementById("two").value;
+                    document.getElementById("btn").innerHTML=a+b;
+                  
+                }    
+
+      
+        </script>
+</body>
+</html>
